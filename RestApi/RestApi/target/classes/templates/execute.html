@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Execute Operations</title>
+</head>
+<body>
+<h1>Result of Operations</h1>
+<div th:if="${result != null}">
+    <p th:text="${result}"></p>
+</div>
+<div th:if="${result == null}">
+    <p>No result available.</p>
+</div>
+</body>
+</html>
